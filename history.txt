@@ -1,0 +1,500 @@
+  130  git log --pretty=format:"%h - %an, %ar : %s"
+  131  git log --pretty=format:"%H - %an, %ar : %s"
+  132  git log --pretty=format:"%h - %an, %ar : %s"
+  133  git status
+  134  git status
+  135  clear
+  136  clear
+  137  clear
+  138  clear
+  139  touch nuevo.txt
+  140  git add nuevo.txt 
+  141  git commit -a "Nuevo.txt"
+  142  git commit -m "Nuevo.txt"
+  143  git status
+  144  git commit --amend
+  145  git commit --amend
+  146  git config --global core.editor "nano"
+  147  git commit --amend
+  148  git status 
+  149  touch archivonueevo
+  150  git add archivonueevo 
+  151  git commit -m "archivonueevo"
+  152  git status 
+  153  touch archivonueevo.txt
+  154  git status 
+  155  git add archivonueevo.txt 
+  156  git status 
+  157  git commit -m "archivonueevo"
+  158  git commit --amend
+  159                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  160  q
+  161  q
+  162  q
+  163  q
+  164  q
+  165  q
+  166  q
+  167  q
+  168  q
+  169  q
+  170  q
+  171  q
+  172  q
+  173  q
+  174  q
+  175  git status 
+  176  sudo nano archivonueevo.txt 
+  177  nano archivonueevo.txt 
+  178  git status 
+  179  git add archivonueevo.txt
+  180  git status 
+  181  nano nuevo.txt 
+  182  git status 
+  183  git tag
+  184  git tag -a 1.4
+  185  git tag
+  186  git show 1.4
+  187  git tag v1.5-1w
+  188  git tag
+  189  git show v1.5-1w 
+  190  git status 
+  191  git commit -m "Totalmente"
+  192  git tag v1.5-1w
+  193  git show v1.5-1 
+  194  git tag +
+  195  git tag 
+  196  git tag -r +
+  197  git tag -d +
+  198  git tag -d v1.5-1w
+  199  git tag v1.5-1w
+  200  git show v1.5-1w 
+  201  git tag -a etiquetaTardia1.1 9ecac
+  202  git tag -a etiquetaTardia1.1
+  203  git config --global alias.st status
+  204  git config --global alias.cm commit
+  205  git config --global alias.br branch
+  206  git status
+  207  cd ..
+  208  mkdir proyecto_WEB
+  209  cd pr
+  210  cd proyecto_WEB/
+  211  git config --global --list
+  212  git iniy
+  213  git init
+  214  mkdir javascript css
+  215  ls
+  216  git st
+  217  touch index.html
+  218  git add .
+  219  git commit -m "Inicializamos el proyecto"
+  220  git branch 
+  221  git log --oneline
+  222  git st
+  223  git st
+  224  git add .
+  225  git commit -m "Editamos el proyecto"
+  226  git log --oneline
+  227  touch css/styles.css
+  228  nano css/styles.css 
+  229  git add .
+  230  git st
+  231  git cm -m "Proyecto preparado para empezar a ramificar"
+  232  git branch javascript
+  233  git branch
+  234  git branch css
+  235  git branch
+  236  git log --oneline
+  237  git ch javascript
+  238  git checkout javascript
+  239  git branch
+  240  git log --oneline
+  241  gitk
+  242  git checkout javascript
+  243  nano javascript/script.js 
+  244  git st
+  245  git add .
+  246  git commit -m "Buenas mundo"
+  247  git st
+  248  git checkout 
+  249  git checkout master
+  250  git log --oneline
+  251  cat javascript/script.js 
+  252  git checkout javascript
+  253  cat javascript/script.js 
+  254  git log --oneline
+  255  git checkout master 
+  256  git add .
+  257  git commit -m "Nuevo parrafo"
+  258  cat  index.html 
+  259  git checkout javascript
+  260  cat  index.html 
+  261  gitk
+  262  git checkout master 
+  263  gitk
+  264  git log --pretty=format:"%h-%s" -graph
+  265  git log --pretty=format:"%h-%s" --graph
+  266  git merge javascript 
+  267  git branch
+  268  git checkout javascript
+  269  git log --oneline
+  270  git checkout master 
+  271  git log --oneline
+  272  git log --pretty=format:"%h-%s" --graph
+  273  gitk
+  274  git checkout javascript
+  275  nano javascript/
+  276  nano javascript/script.js 
+  277  git add .
+  278  git commit -m "Pongo script console log"
+  279  nano javascript/script.js 
+  280  git add .
+  281  git commit -m "Cambio alert hijopta"
+  282  git checkout master 
+  283  nano javascript/script.js 
+  284  git checkout javascript 
+  285  nano javascript/script.js 
+  286  git add .
+  287  git commit -m "Estabas"
+  288  git checkout master 
+  289  nano javascript/script.js 
+  290  git add .
+  291  git commit -m "Calla"
+  292  git merge javascript 
+  293  git add .
+  294  git commit -m "Arreao"
+  295  git add .
+  296  git merge javascript 
+  297  git log
+  298  gitk
+  299  git checkout css
+  300  gitk
+  301  git checkout javascript
+  302  gitk
+  303  git log --oneline 
+  304  git status 
+  305  git remote -v
+  306  git checkout master
+  307  git remote -v
+  308  ls
+  309  cdc ..
+  310  cd .
+  311  cd .
+  312  cd .
+  313  cd .
+  314  cd .
+  315  cd .
+  316  ls
+  317  cd ~/.ssh/
+  318  ls
+  319  cat known_hosts 
+  320  ssh-keygen.exe 
+  321  ls
+  322  cat id_rsa
+  323  gedit id_rsa.pub 
+  324  nano id_rsa.pub 
+  325  cat id_rsa
+  326  nano id_rsa.pub 
+  327  nano id_rsa.pub 
+  328  cat id_rsa.pub
+  329  git init 
+  330  ls
+  331  cd Git/primerasPruebas/
+  332  git clone https://github.com/schacon/simplegit-progit
+  333  git remote -v
+  334  ls
+  335  cd simplegit-progit/
+  336  ls
+  337  git remote -v
+  338  git fetch origin
+  339  git checkout origin/master
+  340  git pull origin master
+  341  git checkout master 
+  342  git remote show 
+  343  git remote -ve
+  344  git remote -v
+  345  cd ..
+  346  ls
+  347  cd ..
+  348  cd ..
+  349  ls
+  350  mkdir proyecto-web
+  351  cd proyecto-web/
+  352  git init 
+  353  echo "# proyecto-web" >> README.md
+  354  git add .
+  355  git commit -m "Inicializamos prueba proyecto web
+  356  git commit -m "Inicializamos prueba proyecto web"
+  357  git remote add origin git@github.com:AdrianARC1/proyecto-web.git
+  358  git remote -v
+  359  git st
+  360  git push -u origin main
+  361  git push -u origin master
+  362  ls
+  363  cat README.md 
+  364  ls -la
+  365  cd .
+  366  cd .
+  367  git push -u origin master
+  368  ssh -T git@github.com
+  369  git remote rm origin
+  370  git remote add origin git@github.com:AdrianARC1/proyecto-web.git
+  371  git remote -v
+  372  git remote add origin git@github.com:AdrianARC1/proyecto-web.git
+  373  git push -u origin master
+  374  ssh -T git@github.com
+  375  ls
+  376  cd proyecto-web/
+  377  ls
+  378  git remomte -v
+  379  git remote -v
+  380  git st
+  381  mkdir fork_proyect
+  382  cd fork_proyect/
+  383  git clone git@github.com:chabakanoob/proyecton.git
+  384  ls -la
+  385  git status
+  386  git log
+  387  cd .
+  388  cd ..
+  389  ls
+  390  ls -la
+  391  cd fork_proyect/
+  392  ls -la
+  393  cd proyecton/
+  394  ls -la
+  395  git log
+  396  nano readme.md 
+  397  nano readme.md 
+  398  git diff --word-diff
+  399  cat readme.md 
+  400  git commit -a -m "Quiero que me comas algo"
+  401  git push origin main
+  402  git remote -v
+  403  git push origin master
+  404  git checkout -b cambio
+  405  git push origin cambio
+  406  ls
+  407  git remote -v
+  408  ls
+  409  cat readme.md 
+  410  git push origin cambio
+  411  git push origin cambios
+  412  git branch 
+  413  git push origin cambio
+  414  nano readme.md 
+  415  git push origin cambio
+  416  git -a -m "Hola"
+  417  git st
+  418  git add .
+  419  git st
+  420  git commit -m "Hola"
+  421  git push origin cambio
+  422  cd ..
+  423  ls
+  424  cd ..
+  425  mkdir fork2
+  426  cd fork2
+  427  git remote -v
+  428  git remote rm origin
+  429  git clone git@github.com:AdrianARC1/proyecton.git
+  430  git checkout -b cambios
+  431  ls
+  432  ls proyecton/
+  433  cd proyecton/readme.md 
+  434  cd proyecton/
+  435  nano readme.md 
+  436  git st
+  437  ls
+  438  cat readme.md 
+  439  git checkout -b cambios
+  440  git st
+  441  git add .
+  442  git st
+  443  cat readme.md 
+  444  git commit -m -a "Que funcione coño"
+  445  git commit -m "Que funcione coño"
+  446  git push origin cambios
+  447  mkdir pasos_Examen && cd pasos_Examen
+  448  git config --local user.name "Adrian Ramon"
+  449  ls -a
+  450  ls -la
+  451  git init
+  452  git config --local user.name "Adrian Ramon"
+  453  git config --local user.email adrianramon2003@gmail.com
+  454  git config --local core.editor "nano -w"
+  455  git config --list
+  456  git config --local --list
+  457  pwd
+  458  echo "Miercoles" > readme.md 
+  459  git st
+  460  git add .
+  461  git status
+  462  git commit -m "Miercoles"
+  463  git status
+  464  git log
+  465  nano readme.md 
+  466  git st
+  467  git diff
+  468  git commit -a -m "Acepto cambios"
+  469  git diff
+  470  GIT ST
+  471  touch arch1
+  472  touch arch1
+  473  touch arch2
+  474  touch arch3
+  475  ls
+  476  git add .
+  477  git st
+  478  git restore --staged .
+  479  git st
+  480  git add .
+  481  git restore --staged arch1
+  482  git st
+  483  git rm arch1
+  484  git add
+  485  git add .
+  486  git rm arch2
+  487  git rm -f arch2
+  488  git st
+  489  git rm arch1
+  490  git rm --cached arch1
+  491  git st
+  492  git add .
+  493  git commit -m "Nose"
+  494  git rm arch1
+  495  git st
+  496  git restore --staged arch1
+  497  git st
+  498  mkdir planets
+  499  cd planets
+  500  git init
+  501  ls
+  502  ls -a
+  503  git status
+  504  cd ..
+  505  git status 
+  506  pwd
+  507  cd planets/
+  508  nano .gitignore
+  509  cat .gitignore 
+  510  pwd
+  511  nano mars.txt
+  512  ls
+  513  cat mars.txt 
+  514  git add mars.txt
+  515  git status 
+  516  git commit -m "Start notes on Mars as a base"
+  517  git add .
+  518  git commit -m "Añadido .gitignore"
+  519  git status 
+  520  git log
+  521  ls
+  522  echo The two moons may be a problem for Wolfman >> mars.txt 
+  523  cat mars.txt 
+  524  git status
+  525  git diff master 
+  526  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+  527  git add mars.txt 
+  528  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+  529  echo But the Mummy will appreciate the lack of humidity >> mars.txt
+  530  cat mars.txt 
+  531  git diff
+  532  git status 
+  533  git add mars.txt
+  534  git diff
+  535  git commit -m "Discuss concerns about Mars' climate for Mummy"
+  536  git log
+  537  git status
+  538  git diff HEAD mars.txt
+  539*  mars.txt
+  540  git master HEAD mars.txt
+  541  git master mars.txt
+  542  git diff HEAD~1 mars.txt
+  543  git diff HEAD~2 mars.txt
+  544  git log
+  545  git diff 2aea7b15
+  546  echo We will need to manufacture our own oxygen >> mars.txt
+  547  git status 
+  548  git checkout HEAD mars.txt
+  549  cat mars.txt 
+  550  git log
+  551  git checkout 2aea7b15 mars.txt
+  552  cat mars.txt 
+  553  git checkout -f master mars.txt
+  554  git log -1
+  555  git log --oneline 
+  556  git log --oneline --graph --all --decorate
+  557  git log --oneline --graph --all
+  558  git checkout HEAD mars.txt
+  559  git log
+  560  echo Venus is beautiful and full of love >> venus.txt
+  561  cat venus.txt 
+  562  git add venus.txt 
+  563  echo Venus is too hot to be suitable as a base >> venus.txt 
+  564  cat venus.txt 
+  565  git commit -m "Comment on Venus as an unsuitable base"
+  566  git checkout HEAD venus.txt
+  567  cat venus.txt 
+  568  git diff HEAD~3 mars.txt
+  569  git log
+  570  git diff 5bca1da
+  571  git diff 5bca1da master 
+  572  git diff 5bca1da mars.txt
+  573  git log --oneline --graph --all --decorate
+  574  git diff 5bca1da mars.txt
+  575  echo Hola >> mars.txt 
+  576  git checkout 
+  577  cat mars.txt 
+  578  git checkout mars.txt
+  579  cat mars.txt 
+  580  git log mars.txt
+  581  git log --patch mars.txt
+  582  git log --patch HEAD~3 *.txt
+  583  CAT mars.txt 
+  584  mkdir results
+  585  touch a.dat b.dat c.dat results/a.out results/b.out
+  586  git status 
+  587  nano .gitignore 
+  588  git status 
+  589  git add .
+  590  git commit -m "Nuevas extensiones de archivos ignoradas"
+  591  git status 
+  592  git add a.dat
+  593  git status --ignored
+  594  nano .git
+  595  nano .gitignore 
+  596  nano .gitignore 
+  597  git add -f log_01
+  598  echo "# planets" >> README.md
+  599  git st
+  600  git add .
+  601  git remote add origin https://github.com/AdrianARC1/planets.git
+  602  git remote -v
+  603  git branch -M main
+  604  git remote -v
+  605  git push -u origin main 
+  606  git push -u origin main
+  607  git push -u origin main
+  608  git remote remove
+  609  git remote remove origin
+  610  git remote add origin git@github.com:AdrianARC1/planets.git
+  611  git remote -v
+  612  git push -u origin main
+  613  touch prueba.txt
+  614  git add .
+  615  git status
+  616  git commit -m "Añadido readme y demás"
+  617  git push -u origin main
+  618  git remote add origin broken git@github.com:AdrianARC1/planetas.git
+  619  git remote add broken git@github.com:AdrianARC1/planetas.git
+  620  git remote -v
+  621  git remote add broken git@github.com:EstoEsErroneo/planetas.si
+  622  git remote remove broken 
+  623  git remote add broken git@github.com:EstoEsErroneo/planetas.si
+  624  git remote -v
+  625  git remote remove broken 
+  626  git remote -h
+  627  git remote -h git@github.com:EstoEsErroneo/planetas.si
+  628  git remote --help
+  629  history > history.txt
