@@ -1,3 +1,6 @@
 moons
 *.dat
 results/
+*.data
+!*.data
+log_*
